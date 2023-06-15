@@ -227,6 +227,88 @@
         width: 100%;
     }
     
+    .shopping-cart {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .shopping-cart .container {
+        box-shadow: rgba(162, 162, 190, 0.2) 0px 7px 29px 0px;
+        margin: 10px;
+        width: 70%;
+    }
+    
+    .shopping-cart .block-heading {
+        margin: 15px;
+    }
+    
+    .shopping-cart .row {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .shopping-cart #summary {
+        background-color: rgb(227, 241, 255);
+        border-top: 5px solid rgb(25, 129, 21);
+    }
+    
+    .shopping-cart .summary h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .summary-item {
+        margin-bottom: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .text {
+        font-family: 'Roboto';
+        font-weight: bold;
+    }
+    
+    .loading-outer {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 5px solid rgba($color: #fff, $alpha: .8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        animation: rotate-outer 1.5s linear infinite forwards;
+        position: relative;
+        .loading-inner {
+            width: 70px;
+            height: 70px;
+            border-radius: inherit;
+            border: 5px solid rgba($color: #fff, $alpha: .8);
+            ;
+            border-top-color: transparent;
+            border-bottom-color: transparent;
+            animation: rotate-inner 1.5s linear infinite forwards;
+            position: absolute;
+        }
+    }
+    
+    @keyframes rotate-outer {
+        50% {
+            transform: rotate(200deg);
+        }
+    }
+    
+    @keyframes rotate-inner {
+        50% {
+            transform: rotate(-400deg);
+        }
+    }
+    
     @media (max-width: 576px) {
         .carousel-item img {
             height: 300px;

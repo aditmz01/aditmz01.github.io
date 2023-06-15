@@ -35,11 +35,12 @@
                     </li>
                 </ul>
                 <a class="btn btn-primary mr-3" id="btn-login" href="<?php site_url() ?>login">Login</a>
-                <a style="color: white; font-size:24px;" href="#">
+                <a style="color: white; font-size:24px;" href="<?php site_url() ?>cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span class='badge badge-warning' id='lblCartCount'>0</span>
                 </a>
             </div>
+        </div>
     </nav>
 
     <div class="container" id="konten">

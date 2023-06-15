@@ -36,11 +36,12 @@
                     </li>
                 </ul>
                 <a class="btn btn-primary mr-3" id="btn-login" href="<?php site_url() ?>login">Login</a>
-                <a style="color: white; font-size:24px;" href="#">
+                <a style="color: white; font-size:24px;" href="<?php site_url() ?>cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span class='badge badge-warning' id='lblCartCount'>0</span>
                 </a>
             </div>
+        </div>
     </nav>
 
     <!-- ISI KONTEN MENU -->
@@ -65,7 +66,7 @@
                             <div class="card-body">
                                 <h5 class="card-title mb-3">Mie Pedas Merapi</h5>
                                 <h6 class="mb-3">Rp. 10.000</h6>
-                                <button class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</button>
+                                <a href="<?php site_url() ?>cart" class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</a>
                             </div>
                         </div>
                     </div>
@@ -75,7 +76,7 @@
                             <div class="card-body">
                                 <h5 class="card-title mb-3">Dimsum Ayam</h5>
                                 <h6 class="mb-3">Rp. 14.000</h6>
-                                <button class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</button>
+                                <a href="<?php site_url() ?>cart" class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</a>
                             </div>
 
                         </div>
@@ -86,7 +87,7 @@
                             <div class="card-body">
                                 <h5 class="card-title mb-3">Ceker Mercon </h5>
                                 <h6 class="mb-3">Rp. 18.000</h6>
-                                <button class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</button>
+                                <a href="<?php site_url() ?>cart" class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +97,7 @@
                             <div class="card-body">
                                 <h5 class="card-title mb-3">Siomay Udang</h5>
                                 <h6 class="mb-3">Rp. 5.000</h6>
-                                <button class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</button>
+                                <a href="<?php site_url() ?>cart" class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</a>
                             </div>
                         </div>
                     </div>
@@ -106,7 +107,7 @@
                             <div class="card-body">
                                 <h5 class="card-title mb-3">Bubble Drink Tea</h5>
                                 <h6 class="mb-3">Rp. 15.000</h6>
-                                <button class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</button>
+                                <a href="<?php site_url() ?>cart" class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</a>
                             </div>
                         </div>
                     </div>
@@ -116,7 +117,7 @@
                             <div class="card-body">
                                 <h5 class="card-title mb-3">Kimbab</h5>
                                 <h6 class="mb-3">Rp. 18.000</h6>
-                                <button class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</button>
+                                <a href="<?php site_url() ?>cart" class="btn btn-success btn-block mt-auto" id="addtocart"><i class="fa-solid fa-cart-plus"></i> Add To Cart</a>
                             </div>
                         </div>
                     </div>
